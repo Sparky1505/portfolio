@@ -6,7 +6,7 @@ const Hero = () => {
       <p className="text-xl md:text-2xl mb-6">Full Stack Developer | React | Java | Python Enthusiast</p>
 
 <a
-  href="public\assets\Jayasurya_Pazhani_Resume.pdf"
+  href="assets\Jayasurya_Pazhani_Resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="bg-blue-600 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-700 transition"
