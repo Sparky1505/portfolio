@@ -1,23 +1,16 @@
 const Navbar = () => {
   return (
-<nav className="w-full h-16 flex items-center justify-between px-8 bg-gray-900/90 text-white backdrop-blur-sm border-b border-gray-700">
-  <h1 className="text-2xl font-bold">Jayasurya Pazhani</h1>
-  <ul className="flex gap-8 list-none">
-    <li className="relative cursor-pointer after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 hover:after:w-full after:transition-all after:duration-300">
-      Home
-    </li>
-    <li className="relative cursor-pointer after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 hover:after:w-full after:transition-all after:duration-300">
-      About
-    </li>
-    <li className="relative cursor-pointer after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 hover:after:w-full after:transition-all after:duration-300">
-      Projects
-    </li>
-    <li className="relative cursor-pointer after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-[2px] after:bg-blue-500 hover:after:w-full after:transition-all after:duration-300">
-      Contact
-    </li>
-  </ul>
-</nav>
+    <nav className="w-full h-16 flex items-center justify-between px-8 shadow-md text-white"
+         style={{ background: 'linear-gradient(to right, #1e293b, #0f172a)' }}>
+      <h1 className="text-2xl font-bold white-text-Nav">Jayasurya Pazhani</h1>
+      <ul className="flex gap-8 list-none">
+  <li className="white-text-Nav cursor-pointer hover:text-blue-400">Home</li>
+  <li className="white-text-Nav cursor-pointer hover:text-blue-400">About</li>
+  <li className="white-text-Nav cursor-pointer hover:text-blue-400">Projects</li>
+  <li className="white-text-Nav cursor-pointer hover:text-blue-400">Contact</li>
+</ul>
 
+    </nav>
   );
 };
 

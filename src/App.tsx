@@ -5,9 +5,9 @@ import Skills from './components/Skills';
 
 function App() {
   return (
-    <div className="min-h-screen">
+<div className="min-h-screen w-full m-0 p-0">
       <Navbar />
-      <main className="space-y-16"> {/* Adds spacing between sections */}
+      <main className="space-y-16">
         <Hero />
         <AboutMe />
         <Skills />
@@ -16,5 +16,6 @@ function App() {
   );
 }
 
-
 export default App;
+
+
