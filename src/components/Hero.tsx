@@ -6,8 +6,8 @@ const Hero = () => {
     >
       <h1 className="text-4xl md:text-6xl font-extrabold mb-4 white-text-Hero">Hi, I'm Jayasurya Pazhani</h1>
       <p className="text-xl md:text-2xl mb-6 text-white">Full Stack Developer | React | Java | Python Enthusiast</p>
-      <a
-  href="/portfolio/assets/resume/Jayasurya_Pazhani_Resume.pdf"
+   <a
+  href="/portfolio/assets/Jayasurya_Pazhani_Resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="cylinder-outline-button"
@@ -15,6 +15,8 @@ const Hero = () => {
   Download Resume
 </a>
 
+
+   
     </section>
   );
 };
